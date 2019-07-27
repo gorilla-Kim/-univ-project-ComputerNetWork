@@ -1,0 +1,4 @@
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S   999 10946 10820  0  80   0 -  1059 inet_c pts/17   00:00:00 p41sechosrv
+1 Z   999 10948 10946  0  80   0 -     0 -      pts/17   00:00:00 p41sechosrv <defunct>
+0 R   999 10967 10820  0  80   0 -  8996 -      pts/17   00:00:00 ps

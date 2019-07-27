@@ -1,0 +1,15 @@
+p44calcli.txt, 어떤 방식으로 binary passing 문제를 해결했는지 설명
+
+설명 : 
+binary passing 문제는 리틀엔디안(Little-endian)과 빅엔디안(Big-endian)때문에 발생하는 문제입니다.
+그러므로, 
+client와 server안의 공통적으로 들어가 있는 아래의 소스에서
+1 struct args { 
+2     long    arg1; 
+3     long    arg2; 
+4 }; 
+5 struct result { 
+6     long    sum; 
+7 }; 
+
+여기서 2,3,6줄의 long형 자료형을 int32_t로 통일하면 됩니다.

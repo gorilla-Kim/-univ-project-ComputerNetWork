@@ -1,0 +1,7 @@
+Active Internet connections (servers and established)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State      
+tcp        0      0 *:9877                  *:*                     LISTEN     
+tcp        0      0 localhost:ipp           *:*                     LISTEN     
+tcp        0      0 localhost:9877          localhost:35298         ESTABLISHED
+tcp        0      0 localhost:35298         localhost:9877          ESTABLISHED
+tcp6       0      0 ip6-localhost:ipp       [::]:*                  LISTEN     
